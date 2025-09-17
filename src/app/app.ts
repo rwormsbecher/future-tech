@@ -19,4 +19,7 @@ export class App {
 
   cssFrameworksLegend = ["CSS/SCSS", "Tailwind", "Bootstrap", "Material", "CSS modules", "PrimeNg", "NgZorro" ]
   cssFrameworkData = [{data: [4.75, 4.13, 2.13, 4.75, 3, 3, 3], label: 'Styling & CSS Frameworks'}]
+
+  buildToolingLegend = ["Vite", "Webpack", "Angular CLI", "Nx", "EsBuild"]
+  buildToolsData = [{data: [4.25, 2.66, 5, 4, 3.5], label: "Build tools"}]
 }
