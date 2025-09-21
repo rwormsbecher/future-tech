@@ -1,1 +1,16 @@
-<p>vue-page works!</p>
+<h1>Vue</h1>
+
+<div class="row">
+    <app-vue [radarChartLabels]="stateManagementLegend" [radarChartDatasets]="stateManagementData" />
+    <app-vue [radarChartLabels]="cssFrameworksLegend" [radarChartDatasets]="cssFrameworkData" />
+</div>
+
+<div class="row">
+    <app-vue [radarChartLabels]="testingFrameworksLegend" [radarChartDatasets]="testingFrameworkData" />
+    <app-vue [radarChartLabels]="e2eTestingFrameworksLegend" [radarChartDatasets]="e2eTestingFrameworkData" />
+</div>
+
+<div class="row">
+    <app-vue [radarChartLabels]="buildToolingLegend" [radarChartDatasets]="buildToolingData" />
+    <app-vue [radarChartLabels]="otherLegend" [radarChartDatasets]="otherData" />
+</div>
