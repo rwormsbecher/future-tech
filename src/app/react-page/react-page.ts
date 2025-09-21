@@ -20,8 +20,8 @@ export class ReactPage {
   testingFrameworksLegend = ["Jest", "React testing library", "Vitest" ];
   testingFrameworksData = [{ data: [3.75, 3.75, 4.25], label: 'Testing frameworks' }];
 
-  e2eTestingFrameworksLegend = ["Playwright", "Cypress", "Puppeteer" ];
-  e2sTestingFrameworksData = [{ data: [4.5, 4.25, 1], label: 'E2E testing frameworks' }];
+  e2eTestingFrameworksLegend = ["Playwright", "Cypress", "" ];
+  e2sTestingFrameworksData = [{ data: [4.5, 4.25, 0], label: 'E2E testing frameworks' }];
 
   othersLegend = ["React Query", "React router", "Remix router", "NextJS", "Astro", "Tanstack start" ];
   othersData = [{ data: [4, 4.75, 3, 3.75, 3.25, 3.75], label: 'Other technologies' }];
