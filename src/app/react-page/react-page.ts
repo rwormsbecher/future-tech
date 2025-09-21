@@ -14,7 +14,7 @@ export class ReactPage {
   cssFrameworksLegend = ["Tailwind", "CSS Modules", "CSS / SCSS", "Styled components", "Emotion", "Shadcn/ui" ];
   cssFrameworksData = [{ data: [4.5, 2, 3, 3.25, 1.5 , 4], label: 'CSS frameworks' }];
 
-  buildToolingLegend = ["Vite", "Webpack", "Trubopack", "Parcel" ];
+  buildToolingLegend = ["Vite", "Webpack", "Turbopack", "Parcel" ];
   buildToolingData = [{ data: [5, 2.5, 2.5, 2.25 ], label: 'Build tooling' }];
 
   testingFrameworksLegend = ["Jest", "React testing library", "Vitest" ];

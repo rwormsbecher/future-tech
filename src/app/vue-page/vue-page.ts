@@ -14,8 +14,8 @@ export class VuePage {
   testingFrameworksLegend = ["Vitest", "Jest", "" ];
   testingFrameworkData = [{ data: [4.5, 3.5, 0 ], label: 'Testing Frameworks' }];
 
-  e2eTestingFrameworksLegend = ["Playwright", "Cypress", "Webdriver.io" ];
-  e2eTestingFrameworkData = [{ data: [4.5, 4.25, 3], label: 'E2E Testing Frameworks' }];
+  e2eTestingFrameworksLegend = ["Playwright", "Cypress", "" ];
+  e2eTestingFrameworkData = [{ data: [4.5, 4.25, 0], label: 'E2E Testing Frameworks' }];
 
   cssFrameworksLegend = ["Tailwind", "Bootstrap", "ShadCdn", "CSS/SCSS" ];
   cssFrameworkData = [{ data: [4, 3.5, 2, 3.5 ], label: 'CSS Frameworks' }];
