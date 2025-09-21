@@ -1,0 +1,16 @@
+<h1>Angular</h1>
+
+<div class="row">
+  <app-angular [radarChartLabels]="stateManagementLegend" [radarChartDatasets]="stateManagementData" />
+
+  <app-angular [radarChartLabels]="cssFrameworksLegend" [radarChartDatasets]="cssFrameworkData" />
+</div>
+
+<div class="row">
+  <app-angular [radarChartLabels]="testingFrameworkLegend" [radarChartDatasets]="testingFrameworkData" />
+  <app-angular [radarChartLabels]="e2eTestingFrameworkLegend" [radarChartDatasets]="e2eTestingFrameworkData" />
+</div>
+
+<div class="row">
+  <app-angular [radarChartLabels]="buildToolingLegend" [radarChartDatasets]="buildToolsData" />
+</div>

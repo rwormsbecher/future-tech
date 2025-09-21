@@ -9,6 +9,8 @@ export const appConfig: ApplicationConfig = {
     provideBrowserGlobalErrorListeners(),
     provideZonelessChangeDetection(),
     provideCharts(withDefaultRegisterables()),
-    provideRouter(routes), provideCharts(withDefaultRegisterables())
+    provideRouter(routes), 
+    provideCharts(withDefaultRegisterables())
+
   ]
 };

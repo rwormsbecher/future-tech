@@ -1,19 +1,7 @@
-<div class="row">
-  <app-angular [radarChartLabels]="stateManagementLegend" [radarChartDatasets]="stateManagementData">
+<nav>
+  <a routerLink="/" routerLinkActive="active-angular" [routerLinkActiveOptions]="{ exact: true }">Angular</a> 
+  <a routerLink="/react" routerLinkActive="active-react">React</a> 
+  <a routerLink="/vue" routerLinkActive="active-vue">Vue</a>
+</nav>
 
-</app-angular>
-
-<app-angular [radarChartLabels]="testingFrameworkLegend" [radarChartDatasets]="testingFrameworkData">
-
-</app-angular>
-</div>
-
-<div class="row">
-<app-angular [radarChartLabels]="cssFrameworksLegend" [radarChartDatasets]="cssFrameworkData">
-
-</app-angular>
-
-<app-angular [radarChartLabels]="buildToolingLegend" [radarChartDatasets]="buildToolsData">
-
-</app-angular>
-</div>
+<router-outlet></router-outlet>
