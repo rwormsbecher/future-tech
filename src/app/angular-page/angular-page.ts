@@ -16,7 +16,7 @@ export class AngularPage {
   testingFrameworkData = [ {data: [3.75, 4.12, 3.25, 3.5, 3.66, 1, 3 ], label: "Testing Frameworks"}]
 
   e2eTestingFrameworkLegend = ["Cypress", "Playwright", "Testcafe", ];
-  e2eTestingFrameworkData = [ {data: [3.88, 4.25, 3 ], label: "Testing Frameworks"}]
+  e2eTestingFrameworkData = [ {data: [3.88, 4.25, 3 ], label: "E2E Testing Frameworks"}]
 
 
   cssFrameworksLegend = ["CSS/SCSS", "Tailwind", "Bootstrap", "Material", "CSS modules", "PrimeNg", "NgZorro" ]

@@ -1,1 +1,21 @@
-<p>react-page works!</p>
+<h1>React</h1>
+
+<div class="row">
+    <app-react [radarChartLabels]="stateManagementLegend" [radarChartDatasets]="stateManagementData" />
+    <app-react [radarChartLabels]="cssFrameworksLegend" [radarChartDatasets]="cssFrameworksData" />
+</div>
+
+<div class="row">
+    <app-react [radarChartLabels]="testingFrameworksLegend" [radarChartDatasets]="testingFrameworksData" />
+    <app-react [radarChartLabels]="e2eTestingFrameworksLegend" [radarChartDatasets]="e2sTestingFrameworksData" />
+</div>
+
+<div class="row">
+    <app-react [radarChartLabels]="buildToolingLegend" [radarChartDatasets]="buildToolingData" />
+    <app-react [radarChartLabels]="othersLegend" [radarChartDatasets]="othersData" />
+</div>
+
+
+
+
+
